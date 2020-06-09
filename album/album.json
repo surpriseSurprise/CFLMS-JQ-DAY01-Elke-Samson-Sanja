@@ -1,0 +1,44 @@
+array = `[
+  {
+    "name": "Susi",
+    "age": 34,
+    "img": "susi.jpg",
+    "relation": "drunk aunt"
+  },
+  {
+    "name": "Walter",
+    "age": 50,
+    "img": "walter.jpg",
+    "relation": "crazy uncle"
+  },
+  {
+    "name": "Conny",
+    "age": 18,
+    "img": "conny.jpg",
+    "relation": "bitchy niece"
+  },
+  {
+    "name": "Bert",
+    "age": 44,
+    "img": "bert.jpg",
+    "relation": "brother"
+  },
+  {
+    "name": "Ernie",
+    "age": 95,
+    "img": "ernie.jpg",
+    "relation": "forgotten grandpa"
+  },
+  {
+    "name": "Gertrude",
+    "age": 90,
+    "img": "gertrude.jpg",
+    "relation": "noone knows who she is"
+  },
+  {
+    "name": "Coco",
+    "age": 39,
+    "img": "coco.jpg",
+    "relation": "only friend, although has no choice"
+  }
+]`
