@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photo Album</title>
     <script src="album.json"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="album.css" />
   </head>
   <body>
@@ -36,6 +37,18 @@
     <script>
       let people = JSON.parse(array);
     </script>
-    <script src="album.js"></script>
+    <script>
+      $(document).ready(function(){
+      //   let wrap = $("#wrapper")
+        for (i=0;i<people.length;i++){
+      //     $("#wrapper").prepend($())
+      //   }
+      $("#wrapper").prepend($(`<div class="container" style="border: solid red 2px;"><img src="${people[i].img}"><div><p>${people[i].name}, ${people[i].age}</p></div></div>`));
+      // $("div").addClass(".container");
+  
+      // <img src="${people[i].img}"><div><p>${people[i].name}, ${people[i].age}
+      }})
+
+    </script>
   </body>
 </html>

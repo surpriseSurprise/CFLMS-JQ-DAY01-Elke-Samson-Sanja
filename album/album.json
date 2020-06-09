@@ -3,42 +3,49 @@ array = `[
     "name": "Susi",
     "age": 34,
     "img": "susi.jpg",
-    "relation": "drunk aunt"
+    "description": "drunk aunt",
+    "related": "family"
   },
   {
     "name": "Walter",
     "age": 50,
     "img": "walter.jpg",
-    "relation": "crazy uncle"
+    "description": "crazy uncle",
+    "related": "family"
   },
   {
     "name": "Conny",
     "age": 18,
     "img": "conny.jpg",
-    "relation": "bitchy niece"
+    "description": "bitchy niece",
+    "related": "family"
   },
   {
     "name": "Bert",
     "age": 44,
     "img": "bert.jpg",
-    "relation": "brother"
+    "description": "brother",
+    "related": "family"
   },
   {
     "name": "Ernie",
     "age": 95,
     "img": "ernie.jpg",
-    "relation": "forgotten grandpa"
+    "description": "forgotten grandpa",
+    "related": "family"
   },
   {
     "name": "Gertrude",
     "age": 90,
     "img": "gertrude.jpg",
-    "relation": "noone knows who she is"
+    "description": "no one knows who she is",
+    "related": "family"
   },
   {
     "name": "Coco",
     "age": 39,
     "img": "coco.jpg",
-    "relation": "only friend, although has no choice"
+    "description": "only friend, although has no choice",
+    "related": "friend"
   }
 ]`
